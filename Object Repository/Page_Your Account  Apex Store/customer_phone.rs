@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Customers</name>
+   <name>customer_phone</name>
    <tag></tag>
-   <elementGuidId>5f1355ba-a558-4ea6-857e-dd4e47acaf52</elementGuidId>
+   <elementGuidId>fddfe09a-fe4c-473c-a29e-8b373857139c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='right-container']/main/div/div/div/h4</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h4</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div[2]/div/div[1]/div/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Customers&quot;i]</value>
+         <value>internal:text=&quot;12345678&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
-      <webElementGuid>a3b9ae35-de1c-4f4c-bee5-8318297bb130</webElementGuid>
+      <value>p</value>
+      <webElementGuid>787b4f99-7e65-437b-93bc-6a75dd7db930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0 mb-2</value>
+      <webElementGuid>08b4d0bd-0054-46d7-9d5c-dc6176191001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Customers</value>
-      <webElementGuid>bf82b2b7-9e25-4f33-9626-48c50f68c326</webElementGuid>
+      <value>12345678</value>
+      <webElementGuid>b8f5ac7f-995f-47f2-8123-f2e47d7b6962</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;right-container&quot;)/main[1]/div[@class=&quot;row&quot;]/div[@class=&quot;container-md&quot;]/div[@class=&quot;d-flex justify-content-between my-3 align-items-center&quot;]/h4[1]</value>
-      <webElementGuid>df3b0e3a-3380-4d75-9373-58d75bbab009</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/p[@class=&quot;m-0 mb-2&quot;]</value>
+      <webElementGuid>c7bc1bd8-6c01-4ca9-bf07-ec4e2691890b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//section[@id='right-container']/main/div/div/div/h4</value>
-      <webElementGuid>03897776-7b6e-46e5-bc08-5bed8cfd9106</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khant Zaw Hein'])[1]/following::p[2]</value>
+      <webElementGuid>6c28377a-6762-4dbe-8e7c-c9148b9bb56f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello, Admin 👋'])[1]/following::h4[1]</value>
-      <webElementGuid>da67324c-1468-4586-b9ea-5d78e048d97d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Information'])[1]/following::p[2]</value>
+      <webElementGuid>54abb079-81bd-4c18-9675-240d3a65a65a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inquiries'])[2]/following::h4[1]</value>
-      <webElementGuid>67b7dd1c-1a0f-42ea-85ec-3547befd5dad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::p[2]</value>
+      <webElementGuid>c3dd7ef2-dfdd-4174-acb4-285752736852</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::h4[1]</value>
-      <webElementGuid>f907d394-0515-41fa-8134-adfaca9f4c4c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[2]/preceding::p[2]</value>
+      <webElementGuid>ba2f487f-cf45-42b9-a6b5-a4eee2fc3232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::h4[1]</value>
-      <webElementGuid>624b509a-40cc-42aa-bc43-3578f81632d9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='12345678']/parent::*</value>
+      <webElementGuid>1cc3b31b-01d4-4098-8e61-74ff9bb1807b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h4</value>
-      <webElementGuid>48b0a931-337d-469c-8bc2-592e1670cef7</webElementGuid>
+      <value>//p[2]</value>
+      <webElementGuid>58e07948-43d5-4bb1-951d-5f471a2b2aa1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h4[(text() = 'Customers' or . = 'Customers')]</value>
-      <webElementGuid>3792d7e1-acbe-4b3c-bb9f-5fa3fdcae36c</webElementGuid>
+      <value>//p[(text() = '12345678' or . = '12345678')]</value>
+      <webElementGuid>14e7889f-839a-4f2b-aaab-eb3135519384</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

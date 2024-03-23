@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Admins</name>
+   <name>logged_in_message</name>
    <tag></tag>
-   <elementGuidId>cb754457-fa89-458f-9b4d-2291fe8fa224</elementGuidId>
+   <elementGuidId>5a26a997-0ead-45d5-b6dc-f97b22a72e46</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='sidebar']/aside/ul/li[2]/a</value>
+         <value>//div[@id='toast-container']/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.toast-message</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Admins&quot;i]</value>
+         <value>internal:text=&quot;Logged Out Successfully&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,96 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>29402381-60b3-449b-8405-77a611709f4b</webElementGuid>
+      <value>div</value>
+      <webElementGuid>390619c9-2129-4fa0-959c-039f1fd0b7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>py-2</value>
-      <webElementGuid>ba46165e-6054-4652-a7ce-e47b1aa10c39</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/admin/admins</value>
-      <webElementGuid>377baa3e-8e37-4969-b191-9e0304e2fb25</webElementGuid>
+      <value>toast-message</value>
+      <webElementGuid>3838cb59-9259-4931-a51f-6c7961f42483</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                    
-                    Admins
-                </value>
-      <webElementGuid>6d344e51-5f59-45e6-8fae-6646b26cd6c2</webElementGuid>
+      <value>Logged Out Successfully</value>
+      <webElementGuid>7bd076ca-4d9b-4c9a-b9d3-0768d66d4931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebar&quot;)/aside[@class=&quot;sidebar d-none d-md-block&quot;]/ul[@class=&quot;list-group nav-group&quot;]/li[@class=&quot;list-group-item&quot;]/a[@class=&quot;py-2&quot;]</value>
-      <webElementGuid>5b5e18e5-0e31-44f8-bcbb-c085414474af</webElementGuid>
+      <value>id(&quot;toast-container&quot;)/div[@class=&quot;toast toast-success&quot;]/div[@class=&quot;toast-message&quot;]</value>
+      <webElementGuid>ec4cd48b-647c-4db7-a821-cf1c4f9ad7ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='sidebar']/aside/ul/li[2]/a</value>
-      <webElementGuid>e5ad3883-7886-48e5-946b-0e1b41060383</webElementGuid>
+      <value>//div[@id='toast-container']/div/div[2]</value>
+      <webElementGuid>515c2fd6-009d-4c12-90b2-fbe29d7a2b1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
-      <webElementGuid>613bf27d-8466-4c3c-9a5a-d3bc6cabc0bf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[1]</value>
+      <webElementGuid>f4d411cc-591c-4cf3-aa48-c06129a64b32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customers'])[1]/preceding::a[1]</value>
-      <webElementGuid>b3ead79f-8687-4f5a-84e2-70b359879eb1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[3]/following::div[5]</value>
+      <webElementGuid>424b1cf8-a4c2-4721-b00c-a4fdc47870ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/admins')]</value>
-      <webElementGuid>00faee2b-b631-4ab2-a4b9-64d308771352</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Logged Out Successfully']/parent::*</value>
+      <webElementGuid>f4979d2e-74d5-467a-8761-e3e4ce64ebd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>dfe7c6ea-d788-4d9b-a5c8-08e88a78d7eb</webElementGuid>
+      <value>//div[4]/div/div[2]</value>
+      <webElementGuid>c16aabfe-f4a2-461b-bb26-543bd77b4210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/admin/admins' and (text() = '
-                    
-                    Admins
-                ' or . = '
-                    
-                    Admins
-                ')]</value>
-      <webElementGuid>8e9ab66b-9552-43e7-b793-3c47ca5becbf</webElementGuid>
+      <value>//div[(text() = 'Logged Out Successfully' or . = 'Logged Out Successfully')]</value>
+      <webElementGuid>417be4c8-1a77-4641-ae78-3c0047bc7d0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign Up (Its free)</name>
+   <name>sign_up_btn</name>
    <tag></tag>
    <elementGuidId>4b8d66c6-de98-4278-a124-c450a5cc08b8</elementGuidId>
    <selectorCollection>

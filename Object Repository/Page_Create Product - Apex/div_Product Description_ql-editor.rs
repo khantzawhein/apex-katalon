@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Admins</name>
+   <name>div_Product Description_ql-editor</name>
    <tag></tag>
-   <elementGuidId>8b487ea5-256f-4e5b-87c6-013d492d37e1</elementGuidId>
+   <elementGuidId>be03c84b-e374-4b1e-8eb2-e4ab23204b26</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='right-container']/main/div/div/div/h4</value>
+         <value>//div[@id='product_description']/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h4</value>
+         <value>div.ql-editor</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Admins&quot;i]</value>
+         <value>#product_description div >> internal:has-text=&quot;T&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
-      <webElementGuid>f9b6dda8-5e51-4643-8ecd-84589d38c4d7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Admins</value>
-      <webElementGuid>aa6e08ad-9d5d-4058-92c4-d31ff5e3e833</webElementGuid>
+      <value>div</value>
+      <webElementGuid>580271d7-ca4a-485f-b889-005c92f24b58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ql-editor</value>
+      <webElementGuid>a64230b1-e0cd-4f35-8456-6ca2ace1c6b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bd75a013-ac40-48be-8779-499aa91fada0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;right-container&quot;)/main[1]/div[@class=&quot;row&quot;]/div[@class=&quot;container-md&quot;]/div[@class=&quot;d-flex justify-content-between my-3 align-items-center&quot;]/h4[1]</value>
-      <webElementGuid>18c2795f-d148-4735-8884-1627cbbc3d95</webElementGuid>
+      <value>id(&quot;product_description&quot;)/div[@class=&quot;ql-editor&quot;]</value>
+      <webElementGuid>17c27326-1884-4919-959a-f6416e6f4bc7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='right-container']/main/div/div/div/h4</value>
-      <webElementGuid>f4f7059d-67fc-47c9-9da0-419a06b9315a</webElementGuid>
+      <value>//div[@id='product_description']/div</value>
+      <webElementGuid>7532e969-ec16-4b2f-a9ff-964d1c9c22c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello, Admin 👋'])[1]/following::h4[1]</value>
-      <webElementGuid>33534f35-3ed4-4ea6-bb71-28ee15b50f9b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Description:'])[1]/following::div[4]</value>
+      <webElementGuid>5fc0b863-ba1b-4d33-b660-90c9c683243c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inquiries'])[2]/following::h4[1]</value>
-      <webElementGuid>fb2c3230-c36f-48f2-b27d-1ff5fb5f4914</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Name:'])[1]/following::div[6]</value>
+      <webElementGuid>0f4817c4-c1cf-4684-a298-442c9a212aa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::h4[1]</value>
-      <webElementGuid>2ebc671f-3824-4708-ba58-5678591af925</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories:'])[1]/preceding::div[2]</value>
+      <webElementGuid>fd8c6fa8-b210-4123-8190-53f7b9f29d34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::h4[1]</value>
-      <webElementGuid>8711a2f7-b500-4218-b0ed-3e9de2d78958</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Price:'])[1]/preceding::div[4]</value>
+      <webElementGuid>ca14d89e-d055-4b58-85be-f1ee1b25ebfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h4</value>
-      <webElementGuid>22bda26b-ea36-4245-b9d6-bfdc53c6038d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//h4[(text() = 'Admins' or . = 'Admins')]</value>
-      <webElementGuid>df197637-5db2-411b-bb56-3261caa56d64</webElementGuid>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>3c5271a1-d00a-4cd7-9a70-d6b2e54ffd50</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

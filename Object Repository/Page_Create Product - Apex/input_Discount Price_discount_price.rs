@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to Your Admin Account_username</name>
+   <name>input_Discount Price_discount_price</name>
    <tag></tag>
-   <elementGuidId>49ad2bce-66da-46f4-9a2c-ebdf92b07911</elementGuidId>
+   <elementGuidId>a77f5066-f0b0-4890-81d2-28f0cb961524</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@id='discount_price']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>#discount_price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter discount price&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9071c013-88e3-4793-8990-72866d1275f9</webElementGuid>
+      <webElementGuid>00470bbe-60cf-42d5-b1fd-633ccab505de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>19ca16e3-f9a1-4338-aae9-3be10e39ee15</webElementGuid>
+      <webElementGuid>ae09a285-cf3a-4d86-9c5a-d8cc0e7afb9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,54 +45,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>946d206c-d405-49bd-afe4-105615e1cda9</webElementGuid>
+      <webElementGuid>bf068a07-c97a-4a42-bdbc-6b795d5befe3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>discount_price</value>
+      <webElementGuid>a31d152d-ebb4-4d71-af47-c95494fc453b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>e45e40be-d1a1-4f88-8c54-7311dc6600c0</webElementGuid>
+      <value>discount_price</value>
+      <webElementGuid>03509012-29dc-42cb-b9b9-f14a69d62f86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>721bce60-3964-4c86-8ae1-175911db08fc</webElementGuid>
+      <value>Enter discount price</value>
+      <webElementGuid>bd89cd06-07a2-4fc2-9ed1-7a77d5b4fbad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container-fluid vh-100 row&quot;]/div[@class=&quot;left col-lg-6&quot;]/div[@class=&quot;form-container mt-4&quot;]/form[@class=&quot;mt-5&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>873f32ea-a300-4b3e-8adb-408b172a10ca</webElementGuid>
+      <value>id(&quot;discount_price&quot;)</value>
+      <webElementGuid>da1216f2-3754-4b47-b426-a63501f1551c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>e5f885be-1f61-456b-9e94-4a32665b5b7e</webElementGuid>
+      <value>//input[@id='discount_price']</value>
+      <webElementGuid>8316cfb3-e1e8-45ad-ade0-9f982068a1ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='right-container']/main/div/div/div/div/form/div[5]/div/div/input</value>
+      <webElementGuid>b9465120-21e0-4e11-a1fb-5cf08df540b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>ef962bdb-f4f6-4d28-bf57-d82e4e76a124</webElementGuid>
+      <value>//div[5]/div/div/input</value>
+      <webElementGuid>b8806916-c8c0-4912-a336-562cc97234bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>d865b15a-eff8-4c2d-8e5d-596bc710e85b</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'discount_price' and @name = 'discount_price' and @placeholder = 'Enter discount price']</value>
+      <webElementGuid>b850003c-b490-4092-b428-f4634a56a8a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Customers</name>
+   <name>category_label</name>
    <tag></tag>
-   <elementGuidId>1f3332d8-1dc8-4974-9688-52ff652e8540</elementGuidId>
+   <elementGuidId>c95e5cf2-fd8f-4b71-9fa5-035ff039d772</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='sidebar']/aside/ul/li[3]/a/span</value>
+         <value>//section[@id='right-container']/main/div/div/div/h4</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Customers&quot;i]</value>
+         <value>internal:role=heading[name=&quot;Category&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>b21166a5-cc72-4430-986a-915ea8dbfb7a</webElementGuid>
+      <value>h4</value>
+      <webElementGuid>42dbf806-b8fe-4bcd-980a-3966cc43891a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Customers</value>
-      <webElementGuid>00eedb0d-7bf0-4b3b-bdc6-d3c3e986001f</webElementGuid>
+      <value>Category</value>
+      <webElementGuid>156f494d-156e-403f-abef-a5dba488b2ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebar&quot;)/aside[@class=&quot;sidebar d-none d-md-block&quot;]/ul[@class=&quot;list-group nav-group&quot;]/li[@class=&quot;list-group-item&quot;]/a[@class=&quot;py-2&quot;]/span[1]</value>
-      <webElementGuid>d5c7f344-02f0-4e50-8a04-d8de4f692377</webElementGuid>
+      <value>id(&quot;right-container&quot;)/main[1]/div[@class=&quot;row&quot;]/div[@class=&quot;container-md&quot;]/div[@class=&quot;d-flex justify-content-between my-3 align-items-center&quot;]/h4[1]</value>
+      <webElementGuid>0cc37575-f623-48c7-96f4-5f08ee8cad8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='sidebar']/aside/ul/li[3]/a/span</value>
-      <webElementGuid>67b21e37-ef08-46b3-91c2-8d9befb71515</webElementGuid>
+      <value>//section[@id='right-container']/main/div/div/div/h4</value>
+      <webElementGuid>5271210f-140d-4b45-983a-8e0330eba0d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admins'])[1]/following::span[1]</value>
-      <webElementGuid>3fdc3a00-7c19-4567-b94b-8cc562d8e516</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello, Admin 👋'])[1]/following::h4[1]</value>
+      <webElementGuid>333f5575-dce1-41ec-bdba-08d0ce89de3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[2]</value>
-      <webElementGuid>2494fdb9-e172-42ea-9141-429bb41c83f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inquiries'])[2]/following::h4[1]</value>
+      <webElementGuid>5c7cbb66-9609-4e48-9385-f953b45769ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::span[1]</value>
-      <webElementGuid>bc424e9b-8ce4-496e-880d-b7e5e3be7488</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::h4[1]</value>
+      <webElementGuid>509a64fe-83d5-4e0b-92fb-9a913720208f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]</value>
-      <webElementGuid>09dc5e90-869d-4002-a46f-4e152f502d81</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Category'])[1]/preceding::h4[1]</value>
+      <webElementGuid>d11a16a7-591b-48a2-b665-7204df6b90d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Customers']/parent::*</value>
-      <webElementGuid>08398860-0b61-4028-8531-086524b807a3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Category']/parent::*</value>
+      <webElementGuid>4a9996c2-8717-4504-b6f9-aa09ec4942b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a/span</value>
-      <webElementGuid>7416527d-15a5-4411-897f-2f6050bbf96c</webElementGuid>
+      <value>//h4</value>
+      <webElementGuid>ddbecf1c-c963-481a-96b6-85d4a0695fa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Customers' or . = 'Customers')]</value>
-      <webElementGuid>e054b765-ab09-421f-9db4-8cd352db5bc3</webElementGuid>
+      <value>//h4[(text() = 'Category' or . = 'Category')]</value>
+      <webElementGuid>119872c6-a4cb-489b-a0cc-623688a9fd95</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sales</name>
+   <name>customer_btn</name>
    <tag></tag>
-   <elementGuidId>afb939e4-0def-4583-a761-05aa9a8f78ce</elementGuidId>
+   <elementGuidId>f2e5ab93-b683-46a0-8ec6-c3c59468c549</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='sidebar']/aside/ul/li[6]/a</value>
+         <value>//section[@id='sidebar']/aside/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Sales&quot;i]</value>
+         <value>internal:role=link[name=&quot; Customers&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>65454a7c-9c58-44a4-ba80-37904f2cb619</webElementGuid>
+      <webElementGuid>0718b33c-f9e0-4135-ac89-92bad7ea96ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>py-2</value>
-      <webElementGuid>e04e661f-cad7-4795-9700-1535b498cf72</webElementGuid>
+      <webElementGuid>15ef835d-f013-42da-a812-bf04d7228840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/sales</value>
-      <webElementGuid>c8b2729b-14b2-4312-8a4d-bf606ff05775</webElementGuid>
+      <value>/admin/customers</value>
+      <webElementGuid>dfd64116-da4f-4a49-b9a6-2c4b48247a68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,9 +54,9 @@
       <type>Main</type>
       <value>
                     
-                    Sales
+                    Customers
                 </value>
-      <webElementGuid>3d53a63b-7c43-43f8-824b-f375810b852e</webElementGuid>
+      <webElementGuid>c1880b89-598a-4033-b05b-b758ce8272b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,68 +64,68 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebar&quot;)/aside[@class=&quot;sidebar d-none d-md-block&quot;]/ul[@class=&quot;list-group nav-group&quot;]/li[@class=&quot;list-group-item&quot;]/a[@class=&quot;py-2&quot;]</value>
-      <webElementGuid>d9caea35-5a7e-4b16-be01-cadd742d1e1c</webElementGuid>
+      <webElementGuid>3b99505c-6f43-43b7-8f64-361778df3cf7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='sidebar']/aside/ul/li[6]/a</value>
-      <webElementGuid>5b65162a-427e-4f67-b1d4-8c3f6bcce640</webElementGuid>
+      <value>//section[@id='sidebar']/aside/ul/li[3]/a</value>
+      <webElementGuid>961c5b04-c3d3-43f3-9de8-4f8e328634e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/following::a[1]</value>
-      <webElementGuid>00530ba8-592e-440e-a131-b282ed052152</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admins'])[1]/following::a[1]</value>
+      <webElementGuid>0fd42795-0fc1-4435-8506-19d065d7055d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::a[2]</value>
-      <webElementGuid>0efc49e7-a232-4e6c-8020-cebd11d48712</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
+      <webElementGuid>0e200d44-8428-4cd8-a17e-9800f90e4b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inquiries'])[1]/preceding::a[1]</value>
-      <webElementGuid>56daa97f-a9df-4cd4-bc58-7b915e7be734</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::a[1]</value>
+      <webElementGuid>7bafd98e-6497-4d5e-8227-539549ea76c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/sales')]</value>
-      <webElementGuid>209e364e-b699-4fea-b5e0-adcfe3cf97d3</webElementGuid>
+      <value>//a[contains(@href, '/admin/customers')]</value>
+      <webElementGuid>3383e9ef-d7c0-4ce3-8655-e7f0c16c5ee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]/a</value>
-      <webElementGuid>e7feee07-b4a4-499d-875b-2e3c63f2224e</webElementGuid>
+      <value>//li[3]/a</value>
+      <webElementGuid>9c9ce28b-1899-45c7-a0bf-b67d15a5cb1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/admin/sales' and (text() = '
+      <value>//a[@href = '/admin/customers' and (text() = '
                     
-                    Sales
+                    Customers
                 ' or . = '
                     
-                    Sales
+                    Customers
                 ')]</value>
-      <webElementGuid>36470f6f-7a2a-4166-8e8b-7a63332dab83</webElementGuid>
+      <webElementGuid>b1469e32-d38d-4c0e-9b3a-342501e7af46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

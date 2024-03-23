@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_Khant Zaw Hein</name>
+   <name>customer_email</name>
    <tag></tag>
-   <elementGuidId>0f9e9437-67e8-4e92-8cb0-2a6105e6bdb5</elementGuidId>
+   <elementGuidId>5977e8dc-b5df-4604-bc90-885201eda2a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Information'])[1]/following::h5[1]</value>
+         <key>CSS</key>
+         <value>p.m-0.mb-2</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h5.card-title</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div[2]/div/div[1]/div/p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Khant Zaw Hein&quot;i]</value>
+         <value>internal:text=&quot;kzh1@gmail.com&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
-      <webElementGuid>18499245-5153-4ef0-ab44-928d115f0e3a</webElementGuid>
+      <value>p</value>
+      <webElementGuid>ffc15783-6e64-423c-a2f9-4ce0b7870866</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-title</value>
-      <webElementGuid>c1dc0be8-a94d-44a4-9fd4-ee3199fdf3c5</webElementGuid>
+      <value>m-0 mb-2</value>
+      <webElementGuid>8629a30e-f686-4a41-b045-3e1ccdba5a0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Khant Zaw Hein</value>
-      <webElementGuid>b48ae563-b4de-4bfd-9794-fa2274391715</webElementGuid>
+      <value>kzh1@gmail.com</value>
+      <webElementGuid>14286133-6650-4363-b5fd-eac200d7854c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title&quot;]</value>
-      <webElementGuid>d0437d86-d4c7-4cdc-9379-4227041df33c</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/p[@class=&quot;m-0 mb-2&quot;]</value>
+      <webElementGuid>480c466f-8ecc-4f95-8489-01351a1d1113</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Information'])[1]/following::h5[1]</value>
-      <webElementGuid>6fc96489-a4f6-46bb-a2ef-0f3ac6369bff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khant Zaw Hein'])[1]/following::p[1]</value>
+      <webElementGuid>984502d4-5f4c-4aa4-aa7b-318102bec594</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ordered At'])[1]/following::h5[1]</value>
-      <webElementGuid>808299c2-ea55-4e82-a5c5-6536fa384ce4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Information'])[1]/following::p[1]</value>
+      <webElementGuid>96c326bc-748d-4e3c-9c93-e781829a1ade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::h5[1]</value>
-      <webElementGuid>236e6b3e-b5b3-467a-95f2-99b91632081c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::p[3]</value>
+      <webElementGuid>f6203ae4-e5ff-4eed-81b5-5c29de1bb268</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[2]/preceding::h5[1]</value>
-      <webElementGuid>73169241-6d0f-4ec3-9d94-c39e0c161608</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[2]/preceding::p[3]</value>
+      <webElementGuid>e2fb59ad-2cef-49b5-81dd-4272375c1ce5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Khant Zaw Hein']/parent::*</value>
-      <webElementGuid>9dcf3a9e-bc63-4cf1-bb7e-e9000c9dcb85</webElementGuid>
+      <value>//*/text()[normalize-space(.)='kzh1@gmail.com']/parent::*</value>
+      <webElementGuid>6b72ec15-7ab4-4006-b5ca-21e63b111e01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h5</value>
-      <webElementGuid>8f9dc60c-140e-45a5-b8f8-185ef6c30d39</webElementGuid>
+      <value>//div/p</value>
+      <webElementGuid>6bc86ecb-103f-417b-8a91-7d8b259f3fe4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h5[(text() = 'Khant Zaw Hein' or . = 'Khant Zaw Hein')]</value>
-      <webElementGuid>cb5622a1-506d-48dd-957e-ca50cd6f4a64</webElementGuid>
+      <value>//p[(text() = 'kzh1@gmail.com' or . = 'kzh1@gmail.com')]</value>
+      <webElementGuid>ed87500d-e94b-478a-bb55-5bfdf55aa9fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

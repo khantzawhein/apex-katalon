@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Products</name>
+   <name>admin_label</name>
    <tag></tag>
-   <elementGuidId>5514a5a6-358c-4611-b4df-2b2b23be5624</elementGuidId>
+   <elementGuidId>8b487ea5-256f-4e5b-87c6-013d492d37e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='sidebar']/aside/ul/li[4]/a/span</value>
+         <value>//section[@id='right-container']/main/div/div/div/h4</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Products&quot;i]</value>
+         <value>internal:role=heading[name=&quot;Admins&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>eeb4cd1e-3103-4d2d-ab2f-fdae00b11dc6</webElementGuid>
+      <value>h4</value>
+      <webElementGuid>f9b6dda8-5e51-4643-8ecd-84589d38c4d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Products</value>
-      <webElementGuid>a1a3b0fb-440c-4c49-91ac-1b2c5c0bef3a</webElementGuid>
+      <value>Admins</value>
+      <webElementGuid>aa6e08ad-9d5d-4058-92c4-d31ff5e3e833</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebar&quot;)/aside[@class=&quot;sidebar d-none d-md-block&quot;]/ul[@class=&quot;list-group nav-group&quot;]/li[@class=&quot;list-group-item&quot;]/a[@class=&quot;py-2&quot;]/span[1]</value>
-      <webElementGuid>a5a1fbf0-2725-41c8-9a38-234bc3585085</webElementGuid>
+      <value>id(&quot;right-container&quot;)/main[1]/div[@class=&quot;row&quot;]/div[@class=&quot;container-md&quot;]/div[@class=&quot;d-flex justify-content-between my-3 align-items-center&quot;]/h4[1]</value>
+      <webElementGuid>18c2795f-d148-4735-8884-1627cbbc3d95</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='sidebar']/aside/ul/li[4]/a/span</value>
-      <webElementGuid>18128ee5-2409-4189-9ce2-2f4b64b606a1</webElementGuid>
+      <value>//section[@id='right-container']/main/div/div/div/h4</value>
+      <webElementGuid>f4f7059d-67fc-47c9-9da0-419a06b9315a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customers'])[1]/following::span[1]</value>
-      <webElementGuid>f32b6f07-5da8-446e-b49f-c471d1aa95b9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello, Admin 👋'])[1]/following::h4[1]</value>
+      <webElementGuid>33534f35-3ed4-4ea6-bb71-28ee15b50f9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admins'])[1]/following::span[2]</value>
-      <webElementGuid>cbe01bc4-be9c-4cdf-ac06-36c85c6ea746</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inquiries'])[2]/following::h4[1]</value>
+      <webElementGuid>fb2c3230-c36f-48f2-b27d-1ff5fb5f4914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[1]</value>
-      <webElementGuid>31e96107-1fc8-4ee2-990a-3f1d90237808</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::h4[1]</value>
+      <webElementGuid>2ebc671f-3824-4708-ba58-5678591af925</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/preceding::span[2]</value>
-      <webElementGuid>14afe5fd-0bc7-4e5b-9106-ef4434ffb666</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>6f3ae6dd-15c7-40a7-9e88-bf113d839312</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::h4[1]</value>
+      <webElementGuid>8711a2f7-b500-4218-b0ed-3e9de2d78958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a/span</value>
-      <webElementGuid>fae86c09-d52d-4f79-8f89-186ed298181c</webElementGuid>
+      <value>//h4</value>
+      <webElementGuid>22bda26b-ea36-4245-b9d6-bfdc53c6038d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Products' or . = 'Products')]</value>
-      <webElementGuid>6c02920f-0680-494f-aa7d-b3ab82cd2e22</webElementGuid>
+      <value>//h4[(text() = 'Admins' or . = 'Admins')]</value>
+      <webElementGuid>df197637-5db2-411b-bb56-3261caa56d64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

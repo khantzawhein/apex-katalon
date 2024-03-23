@@ -29,23 +29,23 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login - Apex/input
 WebUI.sendKeys(findTestObject('Object Repository/Page_Login - Apex/input_Login to Your Admin Account_password'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - Apex/span_Admins'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - Apex/admin_label'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Admins - Apex/h4_Admins'), 'Admins')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Admins - Apex/admin_label'), 'Admins')
 
-WebUI.click(findTestObject('Object Repository/Page_Admins - Apex/a_Customers'))
+WebUI.click(findTestObject('Object Repository/Page_Admins - Apex/customer_btn'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Customers - Apex/h4_Customers'), 'Customers')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Customers - Apex/customer_label'), 'Customers')
 
-WebUI.click(findTestObject('Object Repository/Page_Customers - Apex/span_Products'))
+WebUI.click(findTestObject('Object Repository/Page_Customers - Apex/product_btn'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Product List - Apex/h4_Products'), 'Products')
 
 WebUI.click(findTestObject('Object Repository/Page_Product List - Apex/a_Categories'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Categories - Apex/h4_Category'), 'Category')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Categories - Apex/category_label'), 'Category')
 
-WebUI.click(findTestObject('Object Repository/Page_Categories - Apex/a_Sales'))
+WebUI.click(findTestObject('Object Repository/Page_Categories - Apex/sales_btn'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Sales - Apex/h4_Sales'), 'Sales')
 
@@ -53,7 +53,7 @@ WebUI.click(findTestObject('Object Repository/Page_Sales - Apex/a_Inquiries'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Inquiries - Apex/h4_Inquiries'), 'Inquiries')
 
-WebUI.click(findTestObject('Object Repository/Page_Inquiries - Apex/a_Log Out'))
+WebUI.click(findTestObject('Object Repository/Page_Inquiries - Apex/log_out_btn'))
 
 WebUI.click(findTestObject('Object Repository/Page_Inquiries - Apex/button_OK'))
 

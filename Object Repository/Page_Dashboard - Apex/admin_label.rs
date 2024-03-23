@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Chiang Mai</name>
+   <name>admin_label</name>
    <tag></tag>
-   <elementGuidId>9b692aa7-b873-4b07-b38f-d7bd1b716d90</elementGuidId>
+   <elementGuidId>2726521d-fcb0-47b7-96bb-16da907d1dcf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Khant Zaw Hein'])[1]/following::p[3]</value>
+         <value>//section[@id='sidebar']/aside/ul/li[2]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Chiang Mai&quot;i</value>
+         <value>internal:role=link[name=&quot; Admins&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>cb249665-a010-4e4c-ba85-ba60f80d90f0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>m-0 mb-2</value>
-      <webElementGuid>36ab046d-75d4-4998-b7e1-2d6872cde7a5</webElementGuid>
+      <value>span</value>
+      <webElementGuid>01989379-c135-4eff-8af1-c351d79c37af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Chiang Mai</value>
-      <webElementGuid>ea1343b0-709a-463c-9526-780592f5e180</webElementGuid>
+      <value>Admins</value>
+      <webElementGuid>5f03d124-f240-4aa5-b06c-1b2eabab6242</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/p[@class=&quot;m-0 mb-2&quot;]</value>
-      <webElementGuid>f2ddffb3-a629-418b-9e8a-adddda2f958a</webElementGuid>
+      <value>id(&quot;sidebar&quot;)/aside[@class=&quot;sidebar d-none d-md-block&quot;]/ul[@class=&quot;list-group nav-group&quot;]/li[@class=&quot;list-group-item&quot;]/a[@class=&quot;py-2&quot;]/span[1]</value>
+      <webElementGuid>7ba555e8-a6ef-4335-8e1e-e6321db16d31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khant Zaw Hein'])[1]/following::p[3]</value>
-      <webElementGuid>5e19acb3-5589-4571-aed3-8a1f9f4de2af</webElementGuid>
+      <value>//section[@id='sidebar']/aside/ul/li[2]/a/span</value>
+      <webElementGuid>dd56aa86-3af6-4457-82ba-682163b00d77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Information'])[1]/following::p[3]</value>
-      <webElementGuid>6aa9552f-a7ec-412a-85d2-e58b79940c22</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
+      <webElementGuid>99e5561e-d627-4126-9055-a74dab03d8ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::p[1]</value>
-      <webElementGuid>443c0b49-56ba-4bc7-b39a-9f240b8df5f0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customers'])[1]/preceding::span[1]</value>
+      <webElementGuid>bf024dfe-44de-4223-a27b-df1ce032ce1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[2]/preceding::p[1]</value>
-      <webElementGuid>dab444bf-92bb-4769-b759-fa302d066d77</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::span[2]</value>
+      <webElementGuid>57c6e285-786e-474d-90d2-8b19fffd8e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Chiang Mai']/parent::*</value>
-      <webElementGuid>ab4f76d2-311f-4fb2-947f-0b0383d378aa</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Admins']/parent::*</value>
+      <webElementGuid>04536e13-056c-4b04-8723-9175a0124d37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[3]</value>
-      <webElementGuid>80782b4f-714a-4d98-84db-1476a5560f98</webElementGuid>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>2e11d667-aba7-422d-be32-28208202fa0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Chiang Mai' or . = 'Chiang Mai')]</value>
-      <webElementGuid>e31c2224-25d6-44cd-823b-92ca75811f01</webElementGuid>
+      <value>//span[(text() = 'Admins' or . = 'Admins')]</value>
+      <webElementGuid>a95ec80e-e1c4-460c-a322-e9f422c87c6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

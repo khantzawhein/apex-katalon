@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to Your Admin Account_username</name>
+   <name>input_Product Name_product_name</name>
    <tag></tag>
-   <elementGuidId>49ad2bce-66da-46f4-9a2c-ebdf92b07911</elementGuidId>
+   <elementGuidId>be9672c5-398d-4997-bc01-f8edd7119d11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@id='product_name']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>#product_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter Product Name&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9071c013-88e3-4793-8990-72866d1275f9</webElementGuid>
+      <webElementGuid>a7a39eaf-f3d2-400c-b48c-6dc44d52266e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>19ca16e3-f9a1-4338-aae9-3be10e39ee15</webElementGuid>
+      <webElementGuid>dab0a203-2c3a-4c21-b879-cba6dbfe62e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,39 +45,55 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>946d206c-d405-49bd-afe4-105615e1cda9</webElementGuid>
+      <webElementGuid>73eb688e-a56d-40b8-b2c3-09229fcad707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_name</value>
+      <webElementGuid>d764cf55-1091-4bae-927a-9f6647ce1258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>e45e40be-d1a1-4f88-8c54-7311dc6600c0</webElementGuid>
+      <value>product_name</value>
+      <webElementGuid>d7b94f8e-18da-4d80-89e7-a4787612e521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>721bce60-3964-4c86-8ae1-175911db08fc</webElementGuid>
+      <value>Enter Product Name</value>
+      <webElementGuid>2eef29fb-afae-4fc7-9709-2e51f51ad362</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container-fluid vh-100 row&quot;]/div[@class=&quot;left col-lg-6&quot;]/div[@class=&quot;form-container mt-4&quot;]/form[@class=&quot;mt-5&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>873f32ea-a300-4b3e-8adb-408b172a10ca</webElementGuid>
+      <value>id(&quot;product_name&quot;)</value>
+      <webElementGuid>98de817c-fb6b-424d-bce7-a2f7a47876c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>e5f885be-1f61-456b-9e94-4a32665b5b7e</webElementGuid>
+      <value>//input[@id='product_name']</value>
+      <webElementGuid>dbc65c04-be9b-4829-b59f-bf5e7dba8382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='right-container']/main/div/div/div/div/form/div/div/input</value>
+      <webElementGuid>b616d771-daf4-4419-8e04-a983f3c535e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,14 +101,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>ef962bdb-f4f6-4d28-bf57-d82e4e76a124</webElementGuid>
+      <webElementGuid>f22c1900-75ca-4774-b5b9-00359ef4b68e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>d865b15a-eff8-4c2d-8e5d-596bc710e85b</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'product_name' and @name = 'product_name' and @placeholder = 'Enter Product Name']</value>
+      <webElementGuid>b7a6bc4e-37ab-487d-8253-6e6de4446be4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

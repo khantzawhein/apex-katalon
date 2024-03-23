@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Contact us_fa-solid fa-user fa-lg</name>
+   <name>search_box_submit_btnn</name>
    <tag></tag>
    <elementGuidId>7864c9e7-66cd-4bec-9398-c90be3128901</elementGuidId>
    <selectorCollection>

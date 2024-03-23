@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login to Your Admin Account_username</name>
+   <name>input_Product Price_product_price</name>
    <tag></tag>
-   <elementGuidId>49ad2bce-66da-46f4-9a2c-ebdf92b07911</elementGuidId>
+   <elementGuidId>3205d4b2-a1dc-44d3-8209-29d2d4cb3659</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@id='product_price']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>#product_price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter normal price&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9071c013-88e3-4793-8990-72866d1275f9</webElementGuid>
+      <webElementGuid>df94ef48-8b9c-4b31-bd5e-7edc626a363a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>19ca16e3-f9a1-4338-aae9-3be10e39ee15</webElementGuid>
+      <webElementGuid>a6c65d35-38a9-44d8-aabf-278d5eac054e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,54 +45,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>946d206c-d405-49bd-afe4-105615e1cda9</webElementGuid>
+      <webElementGuid>eacf9d69-1109-45e5-8b14-03a964ae73c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_price</value>
+      <webElementGuid>bfc4d7f7-41e0-4756-a959-3448b829926c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>e45e40be-d1a1-4f88-8c54-7311dc6600c0</webElementGuid>
+      <value>product_price</value>
+      <webElementGuid>411cfecc-7a34-4f9b-9fe8-036b62daecf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>721bce60-3964-4c86-8ae1-175911db08fc</webElementGuid>
+      <value>Enter normal price</value>
+      <webElementGuid>d08b956c-069e-4051-aa46-cbbd397b36b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container-fluid vh-100 row&quot;]/div[@class=&quot;left col-lg-6&quot;]/div[@class=&quot;form-container mt-4&quot;]/form[@class=&quot;mt-5&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>873f32ea-a300-4b3e-8adb-408b172a10ca</webElementGuid>
+      <value>id(&quot;product_price&quot;)</value>
+      <webElementGuid>12323e67-7b61-4799-9169-a77e8664cd5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>e5f885be-1f61-456b-9e94-4a32665b5b7e</webElementGuid>
+      <value>//input[@id='product_price']</value>
+      <webElementGuid>d2a642ed-767d-43da-a22f-8e7a7f30e029</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='right-container']/main/div/div/div/div/form/div[4]/div/div/input</value>
+      <webElementGuid>45311f66-d424-4c28-9394-e694c576091c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>ef962bdb-f4f6-4d28-bf57-d82e4e76a124</webElementGuid>
+      <value>//div[4]/div/div/input</value>
+      <webElementGuid>31fb6202-29fb-41a4-a3eb-dbc0c71cb4f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>d865b15a-eff8-4c2d-8e5d-596bc710e85b</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'product_price' and @name = 'product_price' and @placeholder = 'Enter normal price']</value>
+      <webElementGuid>7ac29adc-4600-433d-9e13-75f6a7087ec4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

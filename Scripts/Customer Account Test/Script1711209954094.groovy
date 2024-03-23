@@ -21,35 +21,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:3000/')
 
-WebUI.click(findTestObject('Object Repository/Page_Home  Apex Store/i_Contact us_fa-solid fa-user fa-lg'))
+WebUI.click(findTestObject('Object Repository/Page_Home  Apex Store/search_box_submit_btnn'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login - Apex/a_Sign Up (Its free)'))
+WebUI.click(findTestObject('Object Repository/Page_Login - Apex/sign_up_btn'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_full_name'), 'Khant Zaw Hein')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_full_name'), full_name)
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_email'), 'kzh1@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_email'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_password'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_confirm_password'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_confirm_password'), password)
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_phone'), '12345678')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_phone'), phone)
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_address'), 'Chiang Mai')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up - Apex/input_Sign Up Account_address'), address)
 
 WebUI.click(findTestObject('Object Repository/Page_Sign Up - Apex/button_Sign Up'))
 
-WebUI.click(findTestObject('Object Repository/Page_Your Account  Apex Store/p_kzh1gmail.com'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Your Account  Apex Store/customer_email'), email)
 
-WebUI.click(findTestObject('Object Repository/Page_Your Account  Apex Store/p_12345678'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Your Account  Apex Store/customer_phone'), phone)
 
-WebUI.click(findTestObject('Object Repository/Page_Your Account  Apex Store/p_Chiang Mai'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Your Account  Apex Store/customer_address'), address)
 
-WebUI.click(findTestObject('Object Repository/Page_Your Account  Apex Store/h5_Khant Zaw Hein'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Your Account  Apex Store/customer_name'), full_name)
 
-WebUI.click(findTestObject('Object Repository/Page_Your Account  Apex Store/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_Your Account  Apex Store/customer_logout_btn'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home  Apex Store/div_Logged Out Successfully'))
+WebUI.click(findTestObject('Page_Home  Apex Store/logged_in_message'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

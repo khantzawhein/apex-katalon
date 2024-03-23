@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Shop                                    _ecfa80</name>
+   <name>account_btn</name>
    <tag></tag>
    <elementGuidId>42901544-5960-43c7-a7b7-93e085ba62fc</elementGuidId>
    <selectorCollection>
