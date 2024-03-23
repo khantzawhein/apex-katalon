@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Search Feature</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>791b1196-072f-4522-b913-4d8ed6d11453</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e7a33f9c-5311-475f-b71b-2283944bbeb0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Apex Search Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e7a33f9c-5311-475f-b71b-2283944bbeb0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>query</value>
+      <variableId>4a72f028-36b2-4ebe-82af-b84ef12350ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d9a095f-c16b-4329-a278-a8fba898f9da</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a72f028-36b2-4ebe-82af-b84ef12350ca</id>
+      <masked>false</masked>
+      <name>query</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://localhost:3000'</defaultValue>
+      <description></description>
+      <id>4d9a095f-c16b-4329-a278-a8fba898f9da</id>
+      <masked>false</masked>
+      <name>host</name>
+   </variable>
+</TestCaseEntity>

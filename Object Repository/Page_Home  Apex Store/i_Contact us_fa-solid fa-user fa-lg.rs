@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Contact us_fa-solid fa-user fa-lg</name>
+   <tag></tag>
+   <elementGuidId>7864c9e7-66cd-4bec-9398-c90be3128901</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='header']/div[2]/nav/div/div[2]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-solid.fa-user.fa-lg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>694113d6-6a9d-4ec2-82de-8ca24f62bdbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-solid fa-user fa-lg</value>
+      <webElementGuid>e88632c6-ddf9-4253-b61d-5556581ff62e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[2]/nav[@class=&quot;navbar navbar-expand-lg bg-body-tertiary justify-content-between&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;d-flex align-items-center order-lg-3 order-2&quot;]/a[@class=&quot;nav-link active&quot;]/i[@class=&quot;fa-solid fa-user fa-lg&quot;]</value>
+      <webElementGuid>330dab20-9cb9-47d2-a450-4aa2df35154e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='header']/div[2]/nav/div/div[2]/a/i</value>
+      <webElementGuid>37110ebf-d9b0-4962-b1f2-8f0d2ea7b79c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>97ef3e90-4611-4c1f-8dc0-3919a4e5bb17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
